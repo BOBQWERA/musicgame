@@ -1,7 +1,8 @@
 import pygame
 import time,os,random
+import os
 import math
-thisdir = 'c:/work/all/musicgame/' #自己改成当前文件夹路径
+thisdir = os.getcwd()+'/' #自己改成当前文件夹路径
 
 FILE={  #总访问路径
     'bgfile':thisdir+'/image/bg/',#背景图文件夹路径
